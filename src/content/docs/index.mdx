@@ -1,0 +1,45 @@
+---
+title: AI Tricks
+description: คลังความรู้ AI Tricks, Prompt Engineering, AI Coding Workflow และ Tool Notes สำหรับงาน Technical / Automation / System Engineering
+template: splash
+hero:
+  tagline: คลังความรู้ AI สำหรับงาน Technical, Automation และ System Engineering — เน้นใช้งานจริง ไม่ใช่ทฤษฎี
+  actions:
+    - text: ดูภาพรวม Project
+      link: /ai-tricks/instructions/
+      icon: right-arrow
+      variant: primary
+    - text: GitHub
+      link: https://github.com/topsira/ai-tricks
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## หมวดเนื้อหา
+
+<CardGrid stagger>
+  <Card title="Prompt Engineering" icon="pencil">
+    เทคนิคเขียน Prompt ให้ AI วิเคราะห์ปัญหา, แก้ Code, Review งาน และกำหนด
+    Role / Context / Constraint / Output Format
+  </Card>
+  <Card title="AI Coding Tools" icon="laptop">
+    Codex, Claude Code, Claude Co-work, Gemini — เครื่องมือไหนเหมาะกับงานแบบไหน
+    ใช้ยังไงให้ได้ผล ระวังอะไรบ้าง
+  </Card>
+  <Card title="AI Co-working Workflow" icon="seti:config">
+    ให้ AI ช่วยวิเคราะห์ Requirement, แยก Task, Review Script, หาจุดเสี่ยง,
+    ทำ Change Log และ Runbook
+  </Card>
+  <Card title="Skills, Agents & Instructions" icon="setting">
+    เขียน Custom Instruction, บังคับ Output Format, ทำ Skill / Template
+    สำหรับงานซ้ำในระดับ Enterprise
+  </Card>
+</CardGrid>
+
+## หลักการสำคัญ
+
+AI เป็นตัวช่วย ไม่ควรเชื่อผลลัพธ์ 100% โดยไม่ตรวจสอบ โดยเฉพาะงาน
+**Production, Security, Infrastructure, Script และ Automation** — ทุก Note
+ในคลังนี้จะมีส่วน **Safety / Verification** กำกับเสมอ

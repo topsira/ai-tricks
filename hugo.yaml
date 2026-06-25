@@ -1,0 +1,49 @@
+baseURL: "https://topsira.github.io/ai-tricks/"
+title: AI Tricks
+theme: hextra
+
+defaultContentLanguage: th
+hasCJKLanguage: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Docs
+      pageRef: /docs
+      weight: 1
+    - name: Search
+      weight: 2
+      params:
+        type: search
+    - name: GitHub
+      weight: 3
+      url: "https://github.com/topsira/ai-tricks"
+      params:
+        icon: github
+
+params:
+  description: "คลังความรู้ AI Tricks, Prompt Engineering และ AI Coding Workflow สำหรับงาน Technical / Automation / System Engineering"
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  theme:
+    default: system
+    displayToggle: true
+  footer:
+    enable: true
+    displayCopyright: true
+  editURL:
+    enable: false
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content

@@ -1,6 +1,5 @@
 ---
 title: Role + Context + Constraint Prompt Pattern
-description: โครงสร้าง Prompt พื้นฐานที่บอก AI ว่าเป็นใคร รู้บริบทอะไร ห้ามทำอะไร อยาก Output แบบไหน
 ---
 
 ## Overview

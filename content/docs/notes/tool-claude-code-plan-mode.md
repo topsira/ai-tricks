@@ -1,6 +1,5 @@
 ---
 title: 'Claude Code: Plan Mode ก่อนแก้ Code จริง'
-description: สำรวจโค้ดและเขียน Plan ก่อน Approve ค่อยแก้ไฟล์จริง ลดความเสี่ยงงานใหญ่
 ---
 
 ## Overview

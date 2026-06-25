@@ -1,17 +1,10 @@
-# build output
-dist/
-.astro/
-
-# deps
-node_modules/
-
-# env
-.env
-.env.production
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock
 
 # macOS
 .DS_Store
 
 # logs
 *.log
-npm-debug.log*

@@ -3,3 +3,10 @@
   --primary-hue: 210;
   --primary-saturation: 85%;
 }
+
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(238,242,255,1) 0%, rgba(224,231,255,1) 100%);
+}
+.dark .hero-gradient {
+  background: linear-gradient(135deg, rgba(30,27,75,0.4) 0%, rgba(30,58,138,0.4) 100%);
+}

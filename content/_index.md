@@ -20,35 +20,36 @@ layout: hextra-home
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx-mb-6">
-{{< hextra/hero-button text="ดูภาพรวม Project" link="docs/instructions" >}}
+<div class="hx-mb-6 hx-flex hx-flex-wrap hx-justify-center hx-gap-4">
+  {{< hextra/hero-button text="ดูภาพรวม Project" link="docs/instructions" >}}
+  {{< hextra/hero-button text="เริ่มต้นอ่าน: Prompts" link="docs/prompts/" >}}
 </div>
 
 <div class="hx-mt-6"></div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Prompt Engineering"
+    title="✨ Prompt Engineering"
     subtitle="เทคนิคเขียน Prompt ให้ AI วิเคราะห์ปัญหา แก้ Code Review งาน และกำหนด Role / Context / Constraint / Output Format"
   >}}
   {{< hextra/feature-card
-    title="AI Coding Tools"
+    title="🛠️ AI Coding Tools"
     subtitle="Codex, Claude Code, Claude Co-work, Gemini — เครื่องมือไหนเหมาะกับงานแบบไหน ใช้ยังไงให้ได้ผล ระวังอะไร"
   >}}
   {{< hextra/feature-card
-    title="AI Co-working Workflow"
+    title="🔄 AI Co-working Workflow"
     subtitle="ให้ AI ช่วยวิเคราะห์ Requirement แยก Task Review Script หาจุดเสี่ยง ทำ Change Log และ Runbook"
   >}}
   {{< hextra/feature-card
-    title="Skills, Agents & Instructions"
+    title="⚙️ Skills, Agents & Instructions"
     subtitle="เขียน Custom Instruction บังคับ Output Format ทำ Skill / Template สำหรับงานซ้ำระดับ Enterprise"
   >}}
   {{< hextra/feature-card
-    title="Installation & Notes"
+    title="📦 Installation & Notes"
     subtitle="วิธีติดตั้ง Tool ปัญหาตอน Setup Command ที่ใช้บ่อย Configuration และ Lesson Learned"
   >}}
   {{< hextra/feature-card
-    title="ใช้ได้จริง + ปลอดภัย"
+    title="🛡️ ใช้ได้จริง + ปลอดภัย"
     subtitle="AI เป็นตัวช่วย ไม่เชื่อ 100% — งาน Production / Security / Automation ต้องตรวจสอบก่อนใช้เสมอ"
   >}}
 {{< /hextra/feature-grid >}}
